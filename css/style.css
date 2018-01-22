@@ -1,0 +1,113 @@
+*{
+	font-family: Lucida Sans Unicode;
+	margin: 0;
+	text-align: justify-all;
+}
+
+
+h1{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align: left;
+	margin: 0;
+	padding: 1%;
+	background-color: black;
+	color: white;
+}
+
+img{
+	margin: 1%;
+	align-items: center;
+}
+
+.menu li{
+	display: inline;
+	list-style: none;
+	color: white;
+	text-align: center;
+	margin:9%;
+	font-size: 15px
+}
+
+.menu{
+	text-align: center;
+	margin: 0%;
+	padding: 1%;
+	background-color: #7418A9;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu li:hover a{
+	background-color: #C349B9;	
+	padding: 1%;
+	margin: -1%;
+}
+
+
+
+.descripcion{
+	text-align: justify;
+	padding: 1%;
+}
+
+.concepto{
+	padding: 1%;
+	text-align: justify;
+
+}
+
+p{
+	padding: 2%;
+}
+
+.middle{
+	margin: 1% 7% 1%;
+	text-align: justify;
+
+}
+
+.footer{
+	margin: 0%;
+	padding: 1% 2% 1%;
+	background-color: #7418A9;
+	color: white;
+
+}
+
+.footer li{
+	text-align: left;
+	margin:1%;
+	font-size: 12px;
+	list-style: none;
+}
+
+
+.footer a{
+	text-decoration: none;
+	color: white;
+	margin: 5%;
+}
+@media only screen and (max-width: 1200px){
+	.col-3{width: 100%; padding: 1%;}
+	.col-6{width: 100%; padding: 1%;}
+}
+
+@media only screen and (min-width: 1200px){
+	.col-3{width: 20%; height: auto; float: left; padding: 1%;}
+	.col-6{width: 70%; height: auto; float: right; padding: 1%;}
+}
+
+@media only screen and (max-width: 1200px){
+	.col-m1{width: 100%; padding: 1%;}
+	.col-m2{width: 100%; padding: 1%;}
+}
+
+@media only screen and (min-width: 1200px){
+	.col-m1{width: 45%; height: auto; float: left; padding: 1%;}
+	.col-m2{width: 45%; height: auto; float: right; padding: 1%;}
+
+}
+
